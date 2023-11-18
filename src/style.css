@@ -1,0 +1,76 @@
+#root{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    width:489px ;
+    height:473px;
+    border-radius: 30px;
+    box-shadow: -30px 20px 100px 10px #FB184E78;
+    color: #2B2B2B;
+    display: flex;
+    justify-content: center;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#title{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+input{
+    width: 290px;
+    height: 50px;
+    color : black;
+    border: 2px solid #2B2B2B;
+    font-size: 24px;
+    font-weight: 700;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+#operands{
+    display: flex;
+    gap: 10px;
+}
+#operands>button{
+    width: 61px;
+    height: 61px;
+    background-color: #2B2B2B;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.result-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.messege{
+    font-size: 30px;
+    font-weight: 700;
+    color: linear-gradient(0deg, #2B2B2B, #2B2B2B);
+}
+.success{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(32, 219, 32);
+}
+.fail{
+    font-size: 30px;
+    font-weight: 700;
+    color: red;
+}
